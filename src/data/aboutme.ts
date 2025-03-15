@@ -18,22 +18,30 @@ export interface AboutMe {
 }
 
 export const aboutMe: AboutMe = {
-  name: "Jane R. Smith",
-  title: "Ph.D. Candidate",
-  institution: "Stanford University",
+  name: "Katelyn Xiaoying Mei",
+  title: "Ph.D. Student",
+  institution: "University of Washington",
   // Note that links work in the description
   description:
-    "I'm a final-year <a href='https://www.stanford.edu'>PhD candidate</a> working at the intersection of causal inference and machine learning. My research focuses on developing robust, interpretable systems that can reason about cause and effect in complex environments.",
-  email: "______@stanford.edu",
-  imageUrl:
-    "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
-  githubUsername: "janesmith",
-  linkedinUsername: "janesmith",
-  twitterUsername: "janesmith",
-  blogUrl: "https://",
-  cvUrl: "https://",
-  institutionUrl: "https://www.stanford.edu",
+    "I'm a third-year <a href='https://ischool.uw.edu/'>PhD student</a> in Information Science \
+     I'm fortunate to be advised by <a href='https://llwang.net/'>Lucy Lu Wang </a> \
+     and <a href = 'https://homes.cs.washington.edu/~reinecke/'> Katharina Reinecke</a>. \
+     Before my PhD, I spent four amazing years at <a href='https://www.middlebury.edu/'> \
+     Middlebury College</a> from which I obtained my Bachelor's of Art in Psychology and\
+     Mathematics. Meanwhile, I learned to explore and appreciate the perspectives from a \
+     variety of disciplines including philosophy, anthropology, and architecture design.\n\n"+
+    "My research interests derive from the intersection of psychology, humanties, and Human-AI interaction.\
+    My research examines how individuals engage with AI systems differently and what can (cannot) facilitate \
+    effective Human-AI collaboration.",
+  email: "kmei@uw.edu",
+  imageUrl: "/profile.jpg",
+  googleScholarUrl: "https://scholar.google.com/citations?user=m8Fcl7QQLMAC&hl=en",
+  githubUsername: "mooniem",
+  linkedinUsername: "katelynmei",
+  // twitterUsername: "janesmith",
+  // blogUrl: "https://",
+  // cvUrl: "https://",
+  // institutionUrl: "https://www.stanford.edu",
   // altName: "",
   // secretDescription: "I like dogs.",
 };

@@ -31,11 +31,14 @@ export default function Home() {
           <div className="col-span-12 md:col-span-7 md:col-start-6 space-y-24">
             {/* About section is typically first */}
             {aboutMe.description && (
-              <section>
+              <section className="space-y-6">
+                {aboutMe.description.split("\n\n").map((paragraph, index) => (
                 <p
+                  key={index}
                   className="font-serif text-sm leading-relaxed text-zinc-700 [&_a]:underline [&_a]:text-zinc-900 [&_a:hover]:text-zinc-600"
-                  dangerouslySetInnerHTML={{ __html: aboutMe.description }}
+                  dangerouslySetInnerHTML={{ __html: paragraph }}
                 />
+                ))}
               </section>
             )}
 
