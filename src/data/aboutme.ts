@@ -23,15 +23,14 @@ export const aboutMe: AboutMe = {
   institution: "University of Washington",
   // Note that links work in the description
   description:
-    "I'm a third-year <a href='https://ischool.uw.edu/'>PhD student</a> in Information Science \
+    "I'm a third-year PhD student in Information Science at the University of Washington. \
      I'm fortunate to be advised by <a href='https://llwang.net/'>Lucy Lu Wang </a> \
      and <a href = 'https://homes.cs.washington.edu/~reinecke/'> Katharina Reinecke</a>. \
      Before my PhD, I spent four amazing years at <a href='https://www.middlebury.edu/'> \
      Middlebury College</a> from which I obtained my Bachelor's of Art in Psychology and\
-     Mathematics. Meanwhile, I learned to explore and appreciate the perspectives from a \
-     variety of disciplines including philosophy, anthropology, and architecture design.\n\n"+
-    "My research interests derive from the intersection of psychology, humanties, and Human-AI interaction.\
-    My research examines how individuals engage with AI systems differently and what can (cannot) facilitate \
+     Mathematics. \n\n"+
+    "My research interests derive from the intersection of psychology, humanties, and data science.\
+    My projects focus on human behaviors in the age of generative AI, including 1) how individuals are impacted by AI systems, 2) how people engage with AI systems differently, and 3)what can (cannot) facilitate \
     effective Human-AI collaboration.",
   email: "kmei@uw.edu",
   imageUrl: "/profile.jpg",
@@ -43,5 +42,6 @@ export const aboutMe: AboutMe = {
   // cvUrl: "https://",
   // institutionUrl: "https://www.stanford.edu",
   // altName: "",
-  // secretDescription: "I like dogs.",
+  funDescription: "I like playing volleyball, hiking, running outside of research.",
+  secretDescription: "I like playing volleyball, hiking, running outside of research."
 };

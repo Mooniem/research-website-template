@@ -15,7 +15,7 @@ export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
     year: "2024",
-    conference: "FAccT",
+    conference: "ACM Conference on Fairness, Accountability, and Transparency (FAccT)",
     title: "Careless Whisper: Speech-to-Text Hallucination Harms",
     authors: "Allison Koenecke, Anna Seo Gyeong Choi, Katelyn X. Mei, Hilke Schellmann, Mona Sloane",
     paperUrl: "https://arxiv.org/abs/2402.08021",
